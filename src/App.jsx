@@ -1,5 +1,5 @@
 import './App.css';
-import LikeImgHOC from './components/HOC/likeImgHOC.JSX';
+import LikeImgHOC from './components/HOC/likeImgHOC';
 import LikePostHOC from './components/HOC/likePostHOC';
 import LikeImage from './components/RenderProps/LikeImage'
 import LikePost from './components/RenderProps/LikePost'
