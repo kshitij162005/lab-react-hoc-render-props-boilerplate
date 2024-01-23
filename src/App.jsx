@@ -1,15 +1,18 @@
 import './App.css';
-import LikeImage from './components/LikeImage';
-import LikePost from './components/LikePost';
+import LikeImgHOC from './components/HOC/likeImgHOC.JSX';
+import LikePostHOC from './components/HOC/likePostHOC';
+import LikeImage from './components/RenderProps/LikeImage'
+import LikePost from './components/RenderProps/LikePost'
 
 function App() {
   return (
     <div>
-      <h3>Some Blog</h3>
-      <div className='buttons'>
-        <LikePost/>
+      <h3>Using HOC</h3>
+          <LikeImgHOC/>
+          <LikePostHOC/>
+      <h3>Using Render Props</h3>
         <LikeImage/>
-      </div>
+        <LikePost/>
     </div>
   );
 }
